@@ -9,10 +9,10 @@ public class fibonacci{
     //going to need an array to store the previous, the next and current values
     int[] seqFib = new int[3]; 
     
-    while(fibo < 1000 ){
+    while(fibo < 1000){
       
       //Checks if we are at the first number
-      if(counter== 0){
+      if(counter == 0){
       
         seqFib[counter] = fibo1;
 	      counter++;
@@ -21,7 +21,7 @@ public class fibonacci{
 	    
         seqFib[counter] = fibo2;
         counter++; 
-        System.out.println(fibo2);
+        System.out.print(fibo2 + " ");
         
       }else{
       
@@ -34,11 +34,15 @@ public class fibonacci{
         //control statement in order not to print out anything higher than 1000
         if(fibo > 1000){
         }else{
-          System.out.println(fibo);
+          System.out.print(fibo + " ");
         }
 	 
       }
+
     }
+
+	System.out.print("\n");
+
   }
 
 }
