@@ -8,4 +8,4 @@
 	
 	array_pop($fn);
  
- 	echo implode(', ', $fn) . "\n";
+ 	echo implode(' ', $fn) . "\n";
