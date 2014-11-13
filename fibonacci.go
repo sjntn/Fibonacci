@@ -19,8 +19,9 @@ func main() {
     out  := 0
     i    :=0
     for out < 1000 {
-        fmt.Println(out)
+        fmt.Print(out, " ")
         out = f(i)
         i++;
     }
+	fmt.Print("\n")
 }
