@@ -20,5 +20,5 @@ if __name__ == '__main__':
     F   = Fibonacci()
     out = 0;
     while(out < 1000):
-        print(out)
+        print(out, end=" ")
         out = F.main()
