@@ -1,11 +1,18 @@
 <?php
 
-	$fn = array(0,1);
+function fibonacci($n){
+    $a = 0; 
+    $b = 1;
+    $tmp = 0;
+    $numbers[] = 0;
+    while($n){
+        $tmp = $b; 
+        $b = $a + $b;
+        $a = $tmp;
+        $numbers[] = $a;
+        $n--;
+    }
+    return implode(' ', $numbers);
+}
 
-	for ($i = 0; $fn[$i+1] <= 1000; $i++) {
-		  $fn[] = $fn[$i] + $fn[$i+1];
-	}
-	
-	array_pop($fn);
- 
- 	echo implode(' ', $fn) . "\n";
+echo fibonacci(16);
