@@ -1,7 +1,6 @@
 /**
  * Created by elycruz on 2/4/15.
- * Fibonacci function for getting an array of numbers
- * representing the fibonacci series up to a passed in limit.
+ * Returns the Fibonacci Series up to `limit` as an array.
  * @param limit {Number}
  * @returns {Array}
  */
