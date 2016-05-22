@@ -15,4 +15,4 @@ function fibonacci($n){
     return implode(' ', $numbers);
 }
 
-echo fibonacci(16);
+echo(fibonacci(16).PHP_EOL);
