@@ -31,4 +31,4 @@ function fib (limit) {
 }
 
 // Print the fib series comma separated
-console.log( fib(1000).join(', ') );
+console.log( fib(1000).join(' ') );
